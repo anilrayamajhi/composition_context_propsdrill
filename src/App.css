@@ -20,11 +20,11 @@
 }
 
 .composition {
-  background-color: #353b46;
+  background-color: #434a58;
 }
 
 .context {
-  background-color: #434a58;
+  background-color: #353b46;
 }
 
 .button {
@@ -41,4 +41,9 @@
 
 .button:hover {
   background-color: green;
+}
+
+.name {
+  color: #a71515;
+  font-size: calc(14px + 2vmin);
 }

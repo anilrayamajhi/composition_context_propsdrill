@@ -67,7 +67,7 @@ function User() {
   const { user } = useUser();
   return (
     <div>
-      Eh Yo! This is <strong>{user}</strong>
+      Eh Yo! This is <strong className="name">{user}</strong>
     </div>
   );
 }
