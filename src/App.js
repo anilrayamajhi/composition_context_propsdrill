@@ -11,11 +11,11 @@ function App() {
       <div className="flex prop-drill">
         <PropsDrill />
       </div>
-      <div className="flex composition">
-        <Composition />
-      </div>
       <div className="flex context">
         <Context />
+      </div>
+      <div className="flex composition">
+        <Composition />
       </div>
     </div>
   );

@@ -10,6 +10,7 @@
 }
 
 .flex {
+  padding: 3.7rem;
   flex: 1;
   text-align: center;
 }
@@ -19,9 +20,30 @@
 }
 
 .composition {
-  background-color: #353b46;
+  background-color: #434a58;
 }
 
 .context {
-  background-color: #434a58;
+  background-color: #353b46;
+}
+
+.button {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+}
+
+.button:hover {
+  background-color: green;
+}
+
+.name {
+  color: #a71515;
+  font-size: calc(14px + 2vmin);
 }
