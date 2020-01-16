@@ -4,7 +4,7 @@ export function PropsDrill() {
   const [user, setUser] = useState(null);
   return (
     <div>
-      <h2>PROPSDRILL</h2>
+      <h2>PROPS DRILL</h2>
       <hr />
       {!!user ? (
         <Main user={user} onBack={() => setUser(null)} />
