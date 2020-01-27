@@ -1,4 +1,5 @@
 import React, { useState, useContext, createContext } from "react";
+import { LG } from "../composition";
 
 const UserContext = createContext();
 const useUser = () => useContext(UserContext);
@@ -16,6 +17,7 @@ export function Context() {
       <h2>CONTEXT</h2>
       <hr />
       {!!user ? <Main /> : <Login />}
+      <LG />
     </UserContext.Provider>
   );
 }

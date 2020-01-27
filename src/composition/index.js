@@ -12,6 +12,9 @@ export function Composition() {
           <Body>
             <User user={user} />
           </Body>
+          <LG>
+            <User user={user} />
+          </LG>
         </Main>
       ) : (
         <Login onLogin={() => setUser("GI")} />
@@ -47,9 +50,6 @@ function Header() {
   return (
     <div>
       <h3>Header Component</h3>
-      <div>
-        <hr />
-      </div>
     </div>
   );
 }
@@ -59,6 +59,17 @@ function Body({ children }) {
     <div>
       <h3>Body Component</h3>
       {children}
+    </div>
+  );
+}
+
+export function LG({ children }) {
+  return (
+    <div>
+      <hr />
+      <h3>LG Component</h3>
+      {children}
+      <hr />
     </div>
   );
 }
